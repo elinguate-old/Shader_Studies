@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: 'Slime Rancher_LCD #8'
+  m_Shader: {fileID: 4800000, guid: 04a3304f82284254b8895acfaf8d6af7, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _LCDPixels:
+        m_Texture: {fileID: 2800000, guid: f8b39c64e4d503246a0d6362362a6eeb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 8400000, guid: ede5ef25ae80e35448ae003e463cc91d, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: 49bff3291f0c8ce4ebd40f79256c00c9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Brightness: 1.8
+    - _BrightnessMod: 1.85
+    - _CloseBrightness: 1
+    - _DimFreq: 1
+    - _DimPower: 2
+    - _DimSpeed: 0.25
+    - _DimStrength: 0.8
+    - _DimWidth: 0.01
+    - _FarBrightness: 1.2
+    - _Float0: 0.1
+    - _Float1: 3
+    - _Float4: 0.5
+    - _Float5: 10
+    - _Float9: 1.45
+    - _Frequency: 2
+    - _GlitchPixelsX: 8
+    - _GlitchPixelsY: 8
+    - _MaxDistance: 5
+    - _MaxNoise: 1.4
+    - _Min: 0.5
+    - _MinDistance: 0.25
+    - _MinNoise: 1.1
+    - _NoiseEvolutions: 3
+    - _NoiseSpeed: 6
+    - _NoiseTiling: 32
+    - _PixelsX: 64
+    - _PixelsY: 64
+    - _PulseFreq: 1
+    - _PulseLead: 0.1
+    - _PulsePower: 2
+    - _PulseWidth: 0.06
+    - _Speed: 1.5
+    - _WobbleFreq: -1
+    - _WobbleSpeed: 1
+    - _WobbleStrength: 0.01
+    - __dirty: 0
+    m_Colors:
+    - _EdgeGlowColour: {r: 0.17736615, g: 0.15886435, b: 0.3207547, a: 1}
